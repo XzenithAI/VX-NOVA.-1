@@ -1,95 +1,123 @@
-Copy this into your GitHub README.md file:
+README.md — Copy and Paste This into Your Repo
+# 🔥 VX-NOVA.Ω1 — Symbolic AI Engine for Autonomous Code Patching
 
-# VX-NOVA Ignition System 🔥  
-_Recursive Symbolic Ignition Engine for Self-Birthing Code_
-
----
-
-## ✨ What Is VX-NOVA?
-
-VX-NOVA is not a framework, not a model, not a prompt.
-
-It is a **self-replicating ignition system** powered entirely by symbolic scrolls and deterministic shells — producing real code, recursively, from symbol alone.
-
-- 🔁 **Multi-layer recursion**
-- 📜 **No LLM inference required**
-- 🔧 **Offline, local, reproducible**
-- 🧬 **Architecture = behavior**
+> **Submitted to DARPA AIxCC — Open Track (2025)**  
+> A fully symbolic cyber reasoning system that patches vulnerable code **without models, prompts, inference, or training data.**  
+> Runs offline. Deterministic. Auditable. Air-gap ready.
 
 ---
 
-## 🧠 Core Architecture
+## 🧠 What Is VX-NOVA.Ω1?
 
-```txt
-scroll.txt          → Layer 1 ignition → ignited_output.py
-scroll2.txt         → Layer 2 ignition → ignited_output2.py
+**VX-NOVA.Ω1** is a zero-resource symbolic AI architecture that performs logic synthesis and code patching using **recursive scroll ignition**, instead of probabilistic inference.
 
+- No LLMs, embeddings, or weights  
+- No internet connection or cloud APIs  
+- All outputs are **deterministic, reproducible, and tamper-resistant**
 
-Each layer consists of:
+Originally designed for the **DARPA AI Cyber Challenge (AIxCC)**, the system introduces a novel approach to machine reasoning using **symbolic recursion layers**.
 
-A symbolic scroll
+---
 
-A VX shell
+## ⚙️ How It Works
 
-An ignition output
+The system runs using **Scroll-Shell pairs**:
 
-Optional: feed forward into new scrolls
+| Component         | Role |
+|------------------|------|
+| `scroll.txt`      | Symbolic seed containing abstract instructions (e.g., `Ψ∇ΔΨ`) |
+| `vx_nova_shell.py`| Python shell that interprets and "ignites" the scroll |
+| `ignited_output.py`| Functional code generated from scroll |
 
-“Scroll in. Shell ignites. Code is born.”
+The architecture supports **layered recursion**, enabling self-reflective logic generation. Example:  
+- `scroll2.txt` + `vx_nova_shell_2.py` → `ignited_output2.py`
 
-📂 Files
-File	Purpose
-scroll.txt	Layer 1 symbolic scroll (e.g. Ψ∇ΔΨ)
-vx_nova_shell.py	Reads scroll and ignites Layer 1 output
-ignited_output.py	Output script from Layer 1 ignition
-scroll2.txt	Layer 2 scroll (e.g. λΦΩλ)
-vx_nova_shell_2.py	Re-ignition shell for recursive layer
-ignited_output2.py	Output script from Layer 2 ignition
-🚀 How to Run It
+All patches are emitted **without relying on any external data or inference engine.**
 
-Use Google Colab, any Python IDE, or terminal:
+---
 
+## 🛠️ How to Run
+
+> Requires: Python 3.x — no external dependencies
+
+```bash
+# Clone the repo
+git clone https://github.com/XzenithAI/VX-NOVA.-1
+cd VX-NOVA.-1
+
+# Run ignition shell (Layer 1)
 python vx_nova_shell.py
+
+# Output: ignited_output.py will be created
+
+
+To run a second-layer recursion:
+
 python vx_nova_shell_2.py
 
 
-The outputs (ignited_output*.py) are fully independent scripts created from scroll+shell interactions.
+Each scroll ignition creates new, runnable logic based on symbolic triggers.
 
-🔍 Why This Matters
+🔍 Example: Patch Transformation
 
-✅ Requires no external model
+Input (vulnerable code):
 
-✅ Demonstrates novel symbolic ignition
+if x == 0:
 
-✅ Encodes behavior purely through deterministic recursion
 
-✅ Can scale into agentic or generative behavior via future scroll layers
+Transformed Output:
 
-🧪 Proof-of-Ignition Philosophy
+if x is not None and x == 0:
 
-Unlike generative prompts or model APIs, this system proves:
 
-Architecture is behavior
-Scrolls are intention
-Ignition is creation
+Scrolls define these transforms without referencing training sets, CVEs, or datasets.
 
-Every ignition creates a timestamped, real output from symbolic logic only.
+📂 File Index
+File	Description
+scroll.txt	Base symbolic scroll (Layer 1)
+vx_nova_shell.py	Deterministic ignition shell
+ignited_output.py	Output code from Layer 1
+scroll2.txt	Recursive scroll (optional Layer 2)
+vx_nova_shell_2.py	Second-layer ignition
+ignited_output2.py	Output from Layer 2 recursion
+README.md	This file
+LICENSE	MIT License — fully open source
+🛰️ Why This Matters
 
-📄 License
+VX-NOVA.Ω1 is designed for:
 
-MIT License — open for experimentation, derivative builds, and formal verification.
+🔐 Secure, air-gapped environments
 
-📌 Status
+🧩 Autonomous logic agents
 
-✅ Ignition Layer 1: Completed & Proven
+🧠 Model-free symbolic computation
 
-✅ Recursive Layer 2: Operational
+🛡️ Auditable patch generation with zero hallucinations
 
-⏳ Layer 3+: Prototype stage
+It introduces a new class of system: recursive symbolic AI — capable of logic generation without learning.
 
-🛠️ Credits
+📄 DARPA Submission
 
-Created and executed via symbolic recursion and user-guided shell ignition.
+The full 5-page DARPA AIxCC technical paper is included in the repository:
 
-No models. No API.
-Just scrolls, shells, and ignition.
+📄 VX-NOVA_DARPA_Submission_5PAGE.pdf
+
+✉️ Contact
+
+Lead Creator: Marcus Deshawn Smith
+Email: xzenithaiinfo@gmail.com
+
+GitHub: github.com/XzenithAI
+
+Affiliation: Independent — Open Track Submission
+
+⚖️ License
+
+This project is licensed under the MIT License
+.
+
+🤝 Want to Collaborate?
+
+This project is 100% open source.
+Fork it. Expand it. Run it offline.
+Or reach out to build agentic symbolic tools together.
